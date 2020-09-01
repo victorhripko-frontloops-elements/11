@@ -1,21 +1,7 @@
-# Template for FrontLoops [Elements] challenge
+# Code
 
-Install all dependencies
-```bash
-npm i
-```
-
-For start watching all files use:
-```bash
-npm run start
-```
-
-then open in browser
-```bash
-http://localhost:1234/
-```
-
-For build all files use:
-```bash
-npm run build
-```
+Build a verification code form.
+Focusing on any input should bring the focus to the first empty input.
+Entering a value should switch the focus to the next input.
+Deleting a value should delete the last filled value.
+Submitting the form should alert the submitted code.
